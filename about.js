@@ -13,7 +13,7 @@ let btn9 = document.getElementById("btn9")
 
 btn1.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/boom.wav")
+    let audio = new Audio("sounds/boom.wav")
 
     btn1.innerHTML =   audio.play(audio)
     btn1.innerHTML = "boom"
@@ -24,7 +24,7 @@ btn1.addEventListener("click", ()=>{
 
 btn2.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/clap.wav")
+    let audio = new Audio("sounds/clap.wav")
 
     btn2.innerHTML =   audio.play(audio)
     btn2.innerHTML = "clap"
@@ -35,7 +35,7 @@ btn2.addEventListener("click", ()=>{
 
 btn3.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/hihat.wav")
+    let audio = new Audio("sounds/hihat.wav")
 
     btn3.innerHTML =   audio.play(audio)
     btn3.innerHTML = "hithat"
@@ -46,7 +46,7 @@ btn3.addEventListener("click", ()=>{
 
 btn4.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/kick.wav")
+    let audio = new Audio("sounds/kick.wav")
 
     btn4.innerHTML =   audio.play(audio)
     btn4.innerHTML = "kick"
@@ -57,7 +57,7 @@ btn4.addEventListener("click", ()=>{
 
 btn5.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/openhat.wav")
+    let audio = new Audio("sounds/openhat.wav")
 
     btn5.innerHTML =   audio.play(audio)
     btn5.innerHTML = "openhat"
@@ -68,7 +68,7 @@ btn5.addEventListener("click", ()=>{
 
 btn6.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/ride.wav")
+    let audio = new Audio("sounds/ride.wav")
 
     btn6.innerHTML =   audio.play(audio)
     btn6.innerHTML = "ride"
@@ -79,7 +79,7 @@ btn6.addEventListener("click", ()=>{
 
 btn7.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/snare.wav")
+    let audio = new Audio("sounds/snare.wav")
 
     btn7.innerHTML =   audio.play(audio)
     btn7.innerHTML = "snare"
@@ -90,7 +90,7 @@ btn7.addEventListener("click", ()=>{
 
 btn8.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/tink.wav")
+    let audio = new Audio("sounds/tink.wav")
 
     btn8.innerHTML =   audio.play(audio)
     btn8.innerHTML = "tink"
@@ -101,7 +101,7 @@ btn8.addEventListener("click", ()=>{
 
 btn9.addEventListener("click", ()=>{
 
-    let audio = new Audio("/sounds/tom.wav")
+    let audio = new Audio("sounds/tom.wav")
 
     btn9.innerHTML =   audio.play(audio)
     btn9.innerHTML = "tom"
